@@ -14,9 +14,9 @@ SLP-T5 is a novel machine learning model designed to predict the sub-chloroplast
 - **Comprehensive Testing:** Validated on multiple datasets, including the MSchlo578 benchmark dataset, the independent Novel dataset, and the newly compiled SLP15267 dataset.
 
 ## Datasets
-- **MSchlo578 Dataset:**A widely recognized benchmark dataset used for model validation.
-- **Novel Dataset:**An independent test set for further validation of model generalization.
-- **SLP15267 Dataset:**A newly compiled dataset used to validate SLP-T5's performance on untested protein sequences.
+- **MSchlo578 Dataset:** A widely recognized benchmark dataset used for model validation.
+- **Novel Dataset:** An independent test set for further validation of model generalization.
+- **SLP15267 Dataset:** A newly compiled dataset used to validate SLP-T5's performance on untested protein sequences.
 
 ## Results
 The experimental results demonstrate that SLP-T5 consistently outperforms existing methods, achieving significant improvements in prediction accuracy and generalization capability.
