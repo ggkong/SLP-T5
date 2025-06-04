@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="labartisan">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- site favicon -->
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+
+    <!-- ====== All css file ========= -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css//icofont.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- site title -->
+    <title>Contact Us - SLP-T5</title>
+</head>
+
+<body class="home-2">
+    <!-- preloader start here -->
+    <div class="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-icon">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <!-- preloader ending here -->
+
+    <!-- ===============// header section start here \\================= -->
+    <header class="header style-2">
+        <div class="container-fluid">
+            <div class="header__content">
+                <div class="header__logo">
+                    <a href="index.html">
+                        <h3 style="color: #fff; margin: 0;">SLP-T5</h3>
+                    </a>
+                </div>
+
+                <form action="#" class="header__search">
+                    <input type="text" placeholder="Search items, collections, and creators">
+                    <button type="button"><i class="icofont-search-2"></i></button>
+                    <button type="button" class="close"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M13.41,12l6.3-6.29a1,1,0,1,0-1.42-1.42L12,10.59,5.71,4.29A1,1,0,0,0,4.29,5.71L10.59,12l-6.3,6.29a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0L12,13.41l6.29,6.3a1,1,0,0,0,1.42,0,1,1,0,0,0,0-1.42Z" />
+                        </svg></button>
+                </form>
+                <div class="header__menu ms-auto">
+                    <ul class="header__nav mb-0">
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="datasets.html">Datasets</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="work.html">Work</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a class="header__nav-link active" href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="header__actions">
+                    <div class="header__action header__action--search">
+                        <button class="header__action-btn" type="button"><i class="icofont-search-1"></i></button>
+                    </div>
+                </div>
+
+                <button class="menu-trigger header__btn" id="menu05">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <!-- ===============//header section end here \\================= -->
+
+    <!-- ===============// Email section start here \\================= -->
+    <section class="email-section padding-top padding-bottom">
+        <div class="container">
+            <div class="section-header style-2">
+                <div class="header-shape"><span></span></div>
+                <h3>Contact Us</h3>
+                <p>Send us your questions, feedback, or suggestions</p>
+            </div>
+
+            <div class="email-wrapper">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="email-form-container">
+                            <!-- Contact Information -->
+                            <div class="contact-info mb-5">
+                                <div class="row g-4">
+                                    <div class="col-md-4">
+                                        <div class="info-item">
+                                            <div class="info-icon">
+                                                <i class="icofont-paper"></i>
+                                            </div>
+                                            <div class="info-content">
+                                                <h6>Documentation</h6>
+                                                <p>View our documentation</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="info-item">
+                                            <div class="info-icon">
+                                                <i class="icofont-question-circle"></i>
+                                            </div>
+                                            <div class="info-content">
+                                                <h6>FAQ</h6>
+                                                <p>Frequently asked questions</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="info-item">
+                                            <div class="info-icon">
+                                                <i class="icofont-github"></i>
+                                            </div>
+                                            <div class="info-content">
+                                                <h6>Repository</h6>
+                                                <p>Access our code</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Email Form -->
+                            <form id="emailForm" class="email-form">
+                                <div class="form-group mb-4">
+                                    <label for="name">Your Name</label>
+                                    <input type="text" class="form-control" id="name" required>
+                                </div>
+
+                                <div class="form-group mb-4">
+                                    <label for="email">Your Email</label>
+                                    <input type="email" class="form-control" id="email" required>
+                                </div>
+
+                                <div class="form-group mb-4">
+                                    <label for="subject">Subject</label>
+                                    <input type="text" class="form-control" id="subject" required>
+                                </div>
+
+                                <div class="form-group mb-4">
+                                    <label for="message">Message</label>
+                                    <textarea class="form-control" id="message" rows="6" required></textarea>
+                                </div>
+
+                                <!-- <div class="form-group mb-4">
+                                    <div class="form-check">
+                                        <input type="checkbox" class="form-check-input" id="newsletter">
+                                        <label class="form-check-label" for="newsletter">
+                                            Subscribe to our newsletter for updates
+                                        </label>
+                                    </div>
+                                </div> -->
+
+                                <button type="submit" class="default-btn home-2 w-100">
+                                    <span><i class="icofont-paper-plane"></i> Send Message</span>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===============//Email section end here \\================= -->
+
+    <!-- ===============//footer section start here \\================= -->
+    <footer class="footer-section">
+        <div class="footer-top" style="background-image: url(assets/images/footer/bg.jpg);">
+            <div class="footer-links padding-top padding-bottom">
+                <div class="container">
+                    <div class="row g-5 row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4">
+                        <!-- About -->
+                        <div class="col">
+                            <div class="footer-link-item">
+                                <h5>About</h5>
+                                <ul class="footer-link-list">
+                                    <li><a href="#" class="footer-link">Overview</a></li>
+                                    <li><a href="#" class="footer-link">Research</a></li>
+                                    <li><a href="#" class="footer-link">Publications</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Datasets -->
+                        <div class="col">
+                            <div class="footer-link-item">
+                                <h5>Datasets</h5>
+                                <ul class="footer-link-list">
+                                    <li><a href="#" class="footer-link">MSchlo578</a></li>
+                                    <li><a href="#" class="footer-link">Novel Dataset</a></li>
+                                    <li><a href="#" class="footer-link">SLP15267</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Work -->
+                        <div class="col">
+                            <div class="footer-link-item">
+                                <h5>Work</h5>
+                                <ul class="footer-link-list">
+                                    <li><a href="#" class="footer-link">Methods</a></li>
+                                    <li><a href="#" class="footer-link">Results</a></li>
+                                    <li><a href="#" class="footer-link">Documentation</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Contact -->
+                        <div class="col">
+                            <div class="footer-link-item">
+                                <h5>Contact</h5>
+                                <ul class="footer-link-list">
+                                    <li><a href="#" class="footer-link">Get in Touch</a></li>
+                                    <li><a href="#" class="footer-link">Support</a></li>
+                                    <li><a href="#" class="footer-link">FAQ</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p class="text-center py-4 mb-0">© 2024 SLP-T5</p>
+            </div>
+        </div>
+    </footer>
+    <!-- ===============//footer section end here \\================= -->
+
+    <!-- scrollToTop start here -->
+    <a href="#" class="scrollToTop"><i class="icofont-stylish-up"></i></a>
+    <!-- scrollToTop ending here -->
+
+    <!-- All Scripts -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/countdown.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/functions.js"></script>
+    <script src="assets/js/email.js"></script>
+</body>
+
+</html> 

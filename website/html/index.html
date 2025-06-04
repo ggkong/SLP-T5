@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="utf-8">
+
+    <meta name="author" content="labartisan">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Meta tags for Social Media(Better SEO) -->
+    <!-- <meta property="og:title" content=""> -->
+    <!-- <meta property="og:type" content=""> -->
+    <!-- <meta property="og:url" content=""> -->
+    <!-- <meta property="og:image" content=""> -->
+
+    <!-- site favicon -->
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+
+    <!-- ====== All css file ========= -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css//icofont.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- site title -->
+    <title>Anftiox</title>
+</head>
+
+<body class="home-2">
+    <!-- preloader start here -->
+    <div class="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-icon">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <!-- preloader ending here -->
+
+
+
+    <!-- ===============// header section start here \\================= -->
+    <header class="header style-2">
+        <div class="container-fluid">
+            <div class="header__content">
+                <div class="header__logo">
+                    <a href="index.html">
+                        <h3 style="color: #fff; margin: 0;">SLP-T5</h3>
+                    </a>
+                </div>
+
+                <form action="#" class="header__search">
+                    <input type="text" placeholder="Search items, collections, and creators">
+                    <button type="button"><i class="icofont-search-2"></i></button>
+                    <button type="button" class="close"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path
+                                d="M13.41,12l6.3-6.29a1,1,0,1,0-1.42-1.42L12,10.59,5.71,4.29A1,1,0,0,0,4.29,5.71L10.59,12l-6.3,6.29a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0L12,13.41l6.29,6.3a1,1,0,0,0,1.42,0,1,1,0,0,0,0-1.42Z" />
+                        </svg></button>
+                </form>
+                <div class="header__menu ms-auto">
+                    <ul class="header__nav mb-0">
+                        <li class="header__nav-item">
+                            <a class="header__nav-link active" href="index.html">Home</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="datasets.html">Datasets</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="work.html">Work</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="header__actions">
+                    <div class="header__action header__action--search">
+                        <button class="header__action-btn" type="button"><i class="icofont-search-1"></i></button>
+                    </div>
+                </div>
+
+                <button class="menu-trigger header__btn" id="menu05">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <!-- ===============//header section end here \\================= -->
+
+
+    <!-- ===============//banner section start here \\================= -->
+    <section class="banner-section style-2" style="background-image:url(assets/images/banner/bg.jpg)">
+        <div class="container">
+            <div class="banner-wrapper">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="banner-content text-center">
+                            <h1>SLP-T5</h1>
+                            <h2 class="subtitle">Subcellular Location Prediction with T5</h2>
+                            <p>An advanced deep learning tool for predicting protein subcellular localization in chloroplasts, leveraging the power of T5 language models for accurate sequence analysis.</p>
+                            <div class="key-features text-start mb-4">
+                                <div class="row justify-content-center">
+                                    <div class="col-md-8">
+                                        <ul class="feature-list">
+                                            <li><i class="icofont-check-circled"></i> High-accuracy prediction of chloroplast protein localization</li>
+                                            <li><i class="icofont-check-circled"></i> Based on state-of-the-art T5 language model</li>
+                                            <li><i class="icofont-check-circled"></i> Trained on experimentally verified data</li>
+                                            <li><i class="icofont-check-circled"></i> Comprehensive validation on multiple datasets</li>
+                                            </ul>
+                                        </div>
+                                            </div>
+                                        </div>
+                            <div class="banner-btns d-flex flex-wrap justify-content-center">
+                                <a href="datasets.html" class="default-btn home-2 move-top" data-blast="bgColor">
+                                    <span>Explore Datasets</span>
+                                </a>
+                                <a href="work.html" class="default-btn home-2 move-right">
+                                    <span>Try It Now</span>
+                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===============//banner section end here \\================= -->
+
+
+
+    <!-- ===============//prediction section start here \\================= -->
+    <section class="prediction-section pb-120">
+        <div class="container">
+            <div class="section-header style-2">
+                <div class="header-shape"><span></span></div>
+                <h3>Protein Location Prediction</h3>
+                <p>Upload a FASTA file or input protein sequence for prediction</p>
+            </div>
+            <div class="section-wrapper">
+                <div class="prediction-wrapper">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-10">
+                            <!-- Input Method Tabs -->
+                            <ul class="nav nav-pills mb-4 justify-content-center" role="tablist">
+                                <li class="nav-item">
+                                    <button class="nav-link active" data-bs-toggle="pill" data-bs-target="#fileUpload">
+                                        <i class="icofont-file-text"></i> File Upload
+                                    </button>
+                                                </li>
+                                <li class="nav-item">
+                                    <button class="nav-link" data-bs-toggle="pill" data-bs-target="#sequenceInput">
+                                        <i class="icofont-pencil-alt-5"></i> Sequence Input
+                                    </button>
+                                                    </li>
+                                                </ul>
+
+                            <!-- Input Content Area -->
+                            <div class="tab-content">
+                                <!-- File Upload Area -->
+                                <div class="tab-pane fade show active" id="fileUpload">
+                                    <div class="upload-area">
+                                        <form id="fileUploadForm" class="prediction-form">
+                                            <div class="file-drop-zone">
+                                                <input type="file" id="fileInput" class="file-input" accept=".fasta,.txt">
+                                                <div class="drop-zone-content">
+                                                    <i class="icofont-upload-alt"></i>
+                                                    <h4>Drag and drop FASTA file here</h4>
+                                                    <p>or</p>
+                                                    <button type="button" class="default-btn home-2">
+                                                        <span>Choose File</span>
+                                                    </button>
+                                                    <p class="mt-2">Supported formats: FASTA, TXT (Max 5MB)</p>
+                                        </div>
+                                            </div>
+                                            <button type="submit" class="default-btn home-2 move-right w-100 mt-4">
+                                                <span><i class="icofont-paper-plane"></i> Start Prediction</span>
+                                            </button>
+                                        </form>
+                                        </div>
+                                    </div>
+
+                                <!-- Sequence Input Area -->
+                                <div class="tab-pane fade" id="sequenceInput">
+                                    <form id="sequenceForm" class="prediction-form">
+                                        <div class="sequence-input-area">
+                                            <label class="mb-2">Enter Protein Sequence (FASTA format)</label>
+                                            <textarea 
+                                                class="form-control" 
+                                                rows="8" 
+                                                placeholder=">Sequence_name&#10;MVKVLLACLVLGLAFAQDTSALQVYGGDEVNVHPLPSPWLWDNRTLEVVSGKWIQDR"
+                                                required
+                                            ></textarea>
+                                            <div class="sequence-format-hint mt-2">
+                                                <p><i class="icofont-info-circle"></i> Example Format:</p>
+                                                <pre class="mt-2">>Sequence_name
+MVKVLLACLVLGLAFAQDTSAL...</pre>
+                                            </div>
+                                        </div>
+                                        <button type="submit" class="default-btn home-2 move-right w-100 mt-4">
+                                            <span><i class="icofont-paper-plane"></i> Start Prediction</span>
+                                        </button>
+                                    </form>
+                                    </div>
+                                        </div>
+
+                            <!-- Result Area (Initially Hidden) -->
+                            <div id="predictionResult" class="prediction-result mt-4" style="display: none;">
+                                <div class="result-header">
+                                    <h4>Prediction Results</h4>
+                                            </div>
+                                <div class="result-content">
+                                    <!-- Results will be dynamically inserted here -->
+                                        </div>
+                                    </div>
+                                        </div>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===============//prediction section end here \\================= -->
+
+
+
+    <!-- ===============//footer section start here \\================= -->
+    <footer class="footer-section">
+        <div class="footer-top" style="background-image: url(assets/images/footer/bg.jpg);">
+            <div class="footer-links padding-top padding-bottom">
+                <div class="container">
+                    <div class="row g-5 row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4">
+                        <!-- About -->
+                        <div class="col">
+                            <div class="footer-link-item">
+                                <h5>About</h5>
+                                <ul class="footer-link-list">
+                                    <li><a href="#" class="footer-link">Overview</a></li>
+                                    <li><a href="#" class="footer-link">Research</a></li>
+                                    <li><a href="#" class="footer-link">Publications</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Datasets -->
+                        <div class="col">
+                            <div class="footer-link-item">
+                                <h5>Datasets</h5>
+                                <ul class="footer-link-list">
+                                    <li><a href="#" class="footer-link">MSchlo578</a></li>
+                                    <li><a href="#" class="footer-link">Novel Dataset</a></li>
+                                    <li><a href="#" class="footer-link">SLP15267</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Work -->
+                        <div class="col">
+                            <div class="footer-link-item">
+                                <h5>Work</h5>
+                                <ul class="footer-link-list">
+                                    <li><a href="#" class="footer-link">Methods</a></li>
+                                    <li><a href="#" class="footer-link">Results</a></li>
+                                    <li><a href="#" class="footer-link">Documentation</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Contact -->
+                        <div class="col">
+                            <div class="footer-link-item">
+                                <h5>Contact</h5>
+                                <ul class="footer-link-list">
+                                    <li><a href="#" class="footer-link">Get in Touch</a></li>
+                                    <li><a href="#" class="footer-link">Support</a></li>
+                                    <li><a href="#" class="footer-link">FAQ</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p class="text-center py-4 mb-0">© 2024 SLP-T5</p>
+            </div>
+        </div>
+    </footer>
+    <!-- ===============//footer section end here \\================= -->
+
+
+
+    <!-- scrollToTop start here -->
+    <a href="#" class="scrollToTop"><i class="icofont-stylish-up"></i></a>
+    <!-- scrollToTop ending here -->
+
+
+
+
+    <!-- All Scripts -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/countdown.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/functions.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+//---------------------------------
+// This file contains banner css
+//---------------------------------
+.banner-section {
+    background: rgb(6, 2, 21);
+    background: linear-gradient(39deg, rgba(6, 2, 21, 1) 0%, rgba(83, 4, 119, 1) 100%);
+    @extend %of-hidden;
+    background-size: cover;
+    background-position: center;
+
+    &.style-2 {
+        .banner-wrapper {
+            padding-top: 183px;
+            padding-bottom: 120px;
+
+            @include breakpoint(lg) {
+                padding-top: 208px;
+                padding-bottom: 150px;
+            }
+
+            .banner-content {
+                p {
+                    margin: 0 auto;
+                    margin-bottom: 30px;
+                }
+            }
+        }
+    }
+}
+
+.banner-wrapper {
+    padding-top: 152px;
+    padding-bottom: 90px;
+
+    @include breakpoint(lg) {
+        padding-top: 175px;
+        padding-bottom: 115px;
+    }
+
+}
+
+.banner-content {
+    h1 {
+        @extend %mb-20;
+    }
+
+    p {
+        @include font-size(18px);
+        font-weight: 500;
+        margin-bottom: 30px;
+        max-width: 500px;
+        font-family: $titillium;
+
+    }
+
+    .banner-btns {
+        gap: 15px;
+
+        a {
+            &:last-child {
+                background: transparent;
+                border: 2px solid $white-color;
+                color: $white-color;
+                line-height: 36px;
+
+                @include breakpoint(md) {
+                    line-height: 46px;
+                }
+
+                &:hover {
+                    color: $body-color;
+                }
+            }
+        }
+
+    }
+}
+
+.banner-image {
+    animation: rotating 15s linear infinite;
+}
+
+
+//floating keyframes
+@keyframes rotating {
+    from {
+        transform: rotateY(0deg);
+    }
+
+    to {
+        transform: rotateY(360deg);
+    }
+}

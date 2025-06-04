@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="labartisan">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- site favicon -->
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+
+    <!-- ====== All css file ========= -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css//icofont.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- site title -->
+    <title>Datasets - SLP-T5</title>
+</head>
+
+<body class="home-2">
+    <!-- preloader start here -->
+    <div class="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-icon">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <!-- preloader ending here -->
+
+    <!-- ===============// header section start here \\================= -->
+    <header class="header style-2">
+        <div class="container-fluid">
+            <div class="header__content">
+                <div class="header__logo">
+                    <a href="index.html">
+                        <h3 style="color: #fff; margin: 0;">SLP-T5</h3>
+                    </a>
+                </div>
+
+                <form action="#" class="header__search">
+                    <input type="text" placeholder="Search items, collections, and creators">
+                    <button type="button"><i class="icofont-search-2"></i></button>
+                    <button type="button" class="close"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M13.41,12l6.3-6.29a1,1,0,1,0-1.42-1.42L12,10.59,5.71,4.29A1,1,0,0,0,4.29,5.71L10.59,12l-6.3,6.29a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0L12,13.41l6.29,6.3a1,1,0,0,0,1.42,0,1,1,0,0,0,0-1.42Z" />
+                        </svg></button>
+                </form>
+                <div class="header__menu ms-auto">
+                    <ul class="header__nav mb-0">
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a class="header__nav-link active" href="datasets.html">Datasets</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="work.html">Work</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="header__actions">
+                    <div class="header__action header__action--search">
+                        <button class="header__action-btn" type="button"><i class="icofont-search-1"></i></button>
+                    </div>
+                </div>
+
+                <button class="menu-trigger header__btn" id="menu05">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <!-- ===============//header section end here \\================= -->
+
+    <!-- ===============// Datasets section start here \\================= -->
+    <section class="datasets-section padding-top padding-bottom">
+        <div class="container">
+            <div class="section-header style-2">
+                <div class="header-shape"><span></span></div>
+                <h3>Available Datasets</h3>
+                <p>Explore our comprehensive protein localization datasets</p>
+            </div>
+
+            <div class="datasets-wrapper">
+                <div class="row g-4">
+                    <!-- MSchlo578 Dataset -->
+                    <div class="col-lg-4">
+                        <div class="dataset-card h-100">
+                            <div class="card-inner">
+                                <div class="dataset-header">
+                                    <h4>MSchlo578 Dataset</h4>
+                                    <span class="dataset-badge">578 Samples</span>
+                                </div>
+                                <div class="dataset-content">
+                                    <div class="dataset-description flex-grow-1">
+                                        <p class="mb-3">Training dataset containing experimentally verified chloroplast proteins.</p>
+                                        <div class="dataset-highlights">
+                                            <h6 class="mb-2">Key Features:</h6>
+                                            <ul class="small">
+                                                <li>Five major locations: Envelope, Stroma, Thylakoid lumen, Thylakoid membrane, Plastoglobule</li>
+                                                <li>Sequence similarity < 40%</li>
+                                                <li>High-quality annotations</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="dataset-actions">
+                                    <button class="default-btn home-2 w-100" onclick="window.location.href='datasets/MSchlo578.zip'">
+                                        <span><i class="icofont-download"></i> Download Dataset</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Novel Dataset -->
+                    <div class="col-lg-4">
+                        <div class="dataset-card h-100">
+                            <div class="card-inner">
+                                <div class="dataset-header">
+                                    <h4>Novel Dataset</h4>
+                                    <span class="dataset-badge">122 Samples</span>
+                                </div>
+                                <div class="dataset-content">
+                                    <div class="dataset-description flex-grow-1">
+                                        <p class="mb-3">Independent test set for model evaluation.</p>
+                                        <div class="dataset-highlights">
+                                            <h6 class="mb-2">Dataset Overview:</h6>
+                                            <ul class="small">
+                                                <li>113 single-location proteins</li>
+                                                <li>9 dual-location proteins</li>
+                                                <li>New proteins (2013-2015)</li>
+                                                <li>No overlap with training data</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="dataset-actions">
+                                    <button class="default-btn home-2 w-100" onclick="window.location.href='datasets/Novel.zip'">
+                                        <span><i class="icofont-download"></i> Download Dataset</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- SLP15267 Dataset -->
+                    <div class="col-lg-4">
+                        <div class="dataset-card h-100">
+                            <div class="card-inner">
+                                <div class="dataset-header">
+                                    <h4>SLP15267 Dataset</h4>
+                                    <span class="dataset-badge">15,267 Samples</span>
+                                </div>
+                                <div class="dataset-content">
+                                    <div class="dataset-description flex-grow-1">
+                                        <p class="mb-3">Extended dataset from UniProtKB/Swiss-Prot (Jan 2024).</p>
+                                        <div class="dataset-highlights">
+                                            <h6 class="mb-2">Distribution:</h6>
+                                            <ul class="small">
+                                                <li>Chloroplast: 10,207</li>
+                                                <li>Membrane: 4,129</li>
+                                                <li>Other locations: 931</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="dataset-actions">
+                                    <button class="default-btn home-2 w-100" onclick="window.location.href='datasets/SLP15267.zip'">
+                                        <span><i class="icofont-download"></i> Download Dataset</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===============//Datasets section end here \\================= -->
+
+    <!-- ===============//footer section start here \\================= -->
+    <footer class="footer-section">
+        <div class="footer-top" style="background-image: url(assets/images/footer/bg.jpg);">
+            <div class="footer-links padding-top padding-bottom">
+                <div class="container">
+                    <div class="row g-5 row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4">
+                        <!-- About -->
+                        <div class="col">
+                            <div class="footer-link-item">
+                                <h5>About</h5>
+                                <ul class="footer-link-list">
+                                    <li><a href="#" class="footer-link">Overview</a></li>
+                                    <li><a href="#" class="footer-link">Research</a></li>
+                                    <li><a href="#" class="footer-link">Publications</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Datasets -->
+                        <div class="col">
+                            <div class="footer-link-item">
+                                <h5>Datasets</h5>
+                                <ul class="footer-link-list">
+                                    <li><a href="#" class="footer-link">MSchlo578</a></li>
+                                    <li><a href="#" class="footer-link">Novel Dataset</a></li>
+                                    <li><a href="#" class="footer-link">SLP15267</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Work -->
+                        <div class="col">
+                            <div class="footer-link-item">
+                                <h5>Work</h5>
+                                <ul class="footer-link-list">
+                                    <li><a href="#" class="footer-link">Methods</a></li>
+                                    <li><a href="#" class="footer-link">Results</a></li>
+                                    <li><a href="#" class="footer-link">Documentation</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Contact -->
+                        <div class="col">
+                            <div class="footer-link-item">
+                                <h5>Contact</h5>
+                                <ul class="footer-link-list">
+                                    <li><a href="#" class="footer-link">Get in Touch</a></li>
+                                    <li><a href="#" class="footer-link">Support</a></li>
+                                    <li><a href="#" class="footer-link">FAQ</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p class="text-center py-4 mb-0">© 2024 SLP-T5</p>
+            </div>
+        </div>
+    </footer>
+    <!-- ===============//footer section end here \\================= -->
+
+    <!-- scrollToTop start here -->
+    <a href="#" class="scrollToTop"><i class="icofont-stylish-up"></i></a>
+    <!-- scrollToTop ending here -->
+
+    <!-- All Scripts -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/countdown.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/functions.js"></script>
+</body>
+
+</html>
+
+/* Dataset Card Styles */
+.dataset-card {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+.dataset-card:hover {
+    transform: translateY(-5px);
+}
+
+.card-inner {
+    padding: 25px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 400px;
+}
+
+.dataset-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.dataset-header h4 {
+    color: #ffffff;
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+.dataset-badge {
+    background: rgba(81, 56, 238, 0.2);
+    color: #5138ee;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.875rem;
+}
+
+.dataset-content {
+    flex: 1;
+    margin-bottom: 20px;
+}
+
+.dataset-description {
+    height: 100%;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.dataset-highlights {
+    background: rgba(255, 255, 255, 0.02);
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.dataset-highlights h6 {
+    color: #ffffff;
+    font-size: 0.9rem;
+}
+
+.dataset-highlights ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dataset-highlights ul li {
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 8px;
+    padding-left: 15px;
+    position: relative;
+    line-height: 1.4;
+}
+
+.dataset-highlights ul li:before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: #5138ee;
+}
+
+.dataset-actions {
+    margin-top: auto;
+    width: 100%;
+}
+
+/* 响应式调整 */
+@media (max-width: 991px) {
+    .dataset-card {
+        margin-bottom: 20px;
+    }
+}
+
+/* 确保按钮样式一致 */
+.dataset-actions .default-btn {
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 

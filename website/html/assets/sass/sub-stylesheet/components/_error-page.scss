@@ -1,0 +1,29 @@
+/*----------------------- Error Page Start here------------------------------------*/
+
+.error-section {
+    .section-wrapper {
+        .error-item {
+            padding: 30px 25px;
+            @extend %text-center;
+            @extend %bg-primary;
+            box-shadow: 0px 0px 10px 0px rgba($black-color, $alpha: .20);
+            border-radius: 5px;
+
+            @include breakpoint(md) {
+                padding: 60px;
+            }
+
+            .error-thumb {
+                @extend %p-rel;
+            }
+
+            .error-content {
+                margin-top: 50px;
+
+                p {
+                    @extend %mb-30;
+                }
+            }
+        }
+    }
+}

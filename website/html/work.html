@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="labartisan">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- site favicon -->
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+
+    <!-- ====== All css file ========= -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css//icofont.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- site title -->
+    <title>Work - SLP-T5</title>
+</head>
+
+<body class="home-2">
+    <!-- preloader start here -->
+    <div class="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-icon">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <!-- preloader ending here -->
+
+    <!-- ===============// header section start here \\================= -->
+    <header class="header style-2">
+        <div class="container-fluid">
+            <div class="header__content">
+                <div class="header__logo">
+                    <a href="index.html">
+                        <h3 style="color: #fff; margin: 0;">SLP-T5</h3>
+                    </a>
+                </div>
+
+                <form action="#" class="header__search">
+                    <input type="text" placeholder="Search items, collections, and creators">
+                    <button type="button"><i class="icofont-search-2"></i></button>
+                    <button type="button" class="close"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M13.41,12l6.3-6.29a1,1,0,1,0-1.42-1.42L12,10.59,5.71,4.29A1,1,0,0,0,4.29,5.71L10.59,12l-6.3,6.29a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0L12,13.41l6.29,6.3a1,1,0,0,0,1.42,0,1,1,0,0,0,0-1.42Z" />
+                        </svg></button>
+                </form>
+                <div class="header__menu ms-auto">
+                    <ul class="header__nav mb-0">
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="datasets.html">Datasets</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a class="header__nav-link active" href="work.html">Work</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="header__actions">
+                    <div class="header__action header__action--search">
+                        <button class="header__action-btn" type="button"><i class="icofont-search-1"></i></button>
+                    </div>
+                </div>
+
+                <button class="menu-trigger header__btn" id="menu05">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <!-- ===============//header section end here \\================= -->
+
+    <!-- ===============// Work section start here \\================= -->
+    <section class="work-section padding-top padding-bottom">
+        <div class="container">
+            <div class="section-header style-2">
+                <div class="header-shape"><span></span></div>
+                <h3>SLP-T5: Sub-chloroplast Localization Prediction</h3>
+            </div>
+
+            <!-- Abstract Section -->
+            <div class="abstract-section">
+                <h4 class="section-title">Abstract</h4>
+                <div class="abstract-content">
+                    <p>Chloroplasts convert light energy into chemical energy and are essential for photosynthesis. Proteins in different
+                    chloroplast positions have different functions. Thus, precise prediction of sub-chloroplast localization of an unknown protein is crucial for understanding related biochemical processes.</p>
+                    
+                    <p>The state-of-the-art methods for this task are mainly based on machine learning and deep learning, but they continue to
+                    struggle with data imbalance and the lack of training data, both of which result in low accuracy. Here, we proposed a
+                    new method for predicting Sub-chloroplast Localization Proteins based on the Text-to-Text Transfer Transformer (T5) model,
+                    called SLP-T5.</p>
+                    
+                    <p>Experimental results showed that SLP-T5 outperformed current methods, increasing the overall actual accuracy by 9% to 92.5%.
+                    The SLP-T5 provided further evidence for the localization of predicted chloroplast proteins in the UniProtKB/Swiss-Prot database,
+                    with 95% accuracy, and formed a comprehensive documentation.</p>
+                </div>
+            </div>
+
+            <!-- Workflow Section -->
+            <div class="workflow-section">
+                <h4 class="section-title">Model Architecture</h4>
+                <img src="png/workflow.png" alt="SLP-T5 Workflow" class="workflow-image">
+            </div>
+
+            <!-- Key Features -->
+            <div class="features-section">
+                <h4 class="section-title">Key Features</h4>
+                <div class="row g-4">
+                    <div class="col-lg-4">
+                        <div class="feature-card">
+                            <h5>Feature Extraction</h5>
+                            <p>Utilizes ProtT5 for advanced protein feature extraction</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="feature-card">
+                            <h5>Data Augmentation</h5>
+                            <p>Multi-Labeled Data Augmentation module for enhanced training</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="feature-card">
+                            <h5>Threshold Selection</h5>
+                            <p>Advanced module to combat data imbalance</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===============//Work section end here \\================= -->
+
+    <!-- ===============//footer section start here \\================= -->
+    <footer class="footer-section">
+        <div class="footer-top" style="background-image: url(assets/images/footer/bg.jpg);">
+            <div class="footer-links padding-top padding-bottom">
+                <div class="container">
+                    <div class="row g-5 row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4">
+                        <!-- About -->
+                        <div class="col">
+                            <div class="footer-link-item">
+                                <h5>About</h5>
+                                <ul class="footer-link-list">
+                                    <li><a href="#" class="footer-link">Overview</a></li>
+                                    <li><a href="#" class="footer-link">Research</a></li>
+                                    <li><a href="#" class="footer-link">Publications</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Datasets -->
+                        <div class="col">
+                            <div class="footer-link-item">
+                                <h5>Datasets</h5>
+                                <ul class="footer-link-list">
+                                    <li><a href="#" class="footer-link">MSchlo578</a></li>
+                                    <li><a href="#" class="footer-link">Novel Dataset</a></li>
+                                    <li><a href="#" class="footer-link">SLP15267</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Work -->
+                        <div class="col">
+                            <div class="footer-link-item">
+                                <h5>Work</h5>
+                                <ul class="footer-link-list">
+                                    <li><a href="#" class="footer-link">Methods</a></li>
+                                    <li><a href="#" class="footer-link">Results</a></li>
+                                    <li><a href="#" class="footer-link">Documentation</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Contact -->
+                        <div class="col">
+                            <div class="footer-link-item">
+                                <h5>Contact</h5>
+                                <ul class="footer-link-list">
+                                    <li><a href="#" class="footer-link">Get in Touch</a></li>
+                                    <li><a href="#" class="footer-link">Support</a></li>
+                                    <li><a href="#" class="footer-link">FAQ</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p class="text-center py-4 mb-0">© 2024 SLP-T5</p>
+            </div>
+        </div>
+    </footer>
+    <!-- ===============//footer section end here \\================= -->
+
+    <!-- scrollToTop start here -->
+    <a href="#" class="scrollToTop"><i class="icofont-stylish-up"></i></a>
+    <!-- scrollToTop ending here -->
+
+    <!-- All Scripts -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/countdown.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/functions.js"></script>
+</body>
+</html>
